@@ -24,7 +24,7 @@ public class Water {
     private int DELAY = 10;
 
     public ArrayList<HashMap<WaterTank,Direction>> getAllSteps() {
-        return _pastSteps;
+        return _pastSteps; // Commit 6 branch-1
     }
 
     public void setWaterDelay(int delay) {
