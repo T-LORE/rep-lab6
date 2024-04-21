@@ -10,7 +10,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 public class Water {
-    private ArrayList<HashMap<WaterTank,Direction>> _pastSteps = new ArrayList<>();
+    private ArrayList<HashMap<WaterTank,Direction>> _pastSteps = new ArrayList<>(); // Commit 1 main
 
     private ArrayList<WaterActionListener> _listeners = new ArrayList<>();
 
