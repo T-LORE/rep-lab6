@@ -12,7 +12,7 @@ import java.util.TimerTask;
 public class Water {
     private ArrayList<HashMap<WaterTank,Direction>> _pastSteps = new ArrayList<>(); // Commit 1 main
 
-    private ArrayList<WaterActionListener> _listeners = new ArrayList<>();
+    private ArrayList<WaterActionListener> _listeners = new ArrayList<>()
 
     private final TimerTask _task = new TimerTask() {
         public void run() {
@@ -24,7 +24,7 @@ public class Water {
     private int DELAY = 10;
 
     public ArrayList<HashMap<WaterTank,Direction>> getAllSteps() {
-        return _pastSteps;
+        return _pastSteps; // Commit 2 main
     }
 
     public void setWaterDelay(int delay) {
